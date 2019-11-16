@@ -8,7 +8,7 @@ Created on Sat Nov 16 01:28:12 2019
 
 def knn_postprocessing(rating_mat,mat_q,mat_p):
     
-    #rating_mat:9724*610
+    #rating_mat:610*9724
     #mat_q:9724*k
     #mat_p:k*610
     
