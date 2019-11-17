@@ -33,10 +33,10 @@ def knn_postprocessing(rating_mat,mat_q,mat_p):
                 
                 ###update latent factor of each movie that was not rated by user_i
                 
-                cos_sim=similarity.iloc[np.where(useri_rating==0)[0][j],np.where(useri_rating==0)[0]]
-                most_similar=cos_sim.sort_values().tail(6)   
-                ### get 5 most similar movies with movie_j(should exclude the movie_j itself)        
-                latent_factor5=np.delete(mat_q[most_similar.index],5,axis=0)
+                cos_sim=similarity.iloc[np.where(useri_rating==0)[0][j],np.where(useri_rating!=0)[0]]
+                most_similar=cos_sim.sort_values().tail(5)   
+                ### get 5 most similar movies with movie_j      
+                latent_factor5=mat_q[most_similar.index]
                 new_latent_factor[j]=latent_factor5.mean(axis=0)
             updated_q[i]=new_latent_factor
     
