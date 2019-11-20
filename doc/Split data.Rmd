@@ -1,0 +1,46 @@
+---
+title: "Untitled"
+author: "Qiuyu Ruan"
+date: "2019/11/17"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+#read data
+rating<-read.csv("rating_time.csv",header = TRUE)
+head(rating)
+#rating$id<-c(1:100836)
+#sort data based on time
+summary(rating$time_bin)
+rating_sort<-rating[order(rating$time_bin),]
+row<-nrow(rating_sort)
+#train_size<-row*5/6
+#train<-rating_sort[1:train_size,]
+#test<-rating_sort[(train_size+1):row,]
+#head(train)
+#head(test)
+head(rating_sort)
+#extract index of unique userid
+index1<-duplicated(rating_sort[,2])
+#extract index of unique movie
+index2<-duplicated(rating_sort[,6])
+#extract index of unique timebin
+index3<-duplicated(rating_sort[,8])
+index<-index1 & index2 & index3
+#data with all userid,movieid,timebin
+rating_train=rating_sort[!index,]
+#dim(rating_train)
+rest<-rating_sort[-which(rownames(rating_sort) %in% rownames(rating_train)),]
+train_idx <- sample(1:nrow(rest), 84030-10306)
+test_idx <- setdiff(1:nrow(rest), train_idx)
+data_train <- rbind(rest[train_idx,],rating_train)
+#dim(data_train)
+data_test <- rest[test_idx,]
+#dim(data_test)
+write.csv(data_train,file="data_train.csv")
+write.csv(data_test,file="data_test.csv")
+```
