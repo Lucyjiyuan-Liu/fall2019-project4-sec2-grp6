@@ -17,18 +17,21 @@ Term: Fall 2019
 	+ San Dai
 	+ Thomson Batidzirai
 	
-+ Project summary: Inspired by the work done by the authors of the two papers below, we implemented and compared the following content filtering methods for the recommendation system:
+**Project summary**: 
+
+Inspired by the work done by the authors of the two papers below, we implemented and compared the following content filtering methods for the recommendation system:
 	+ Alternative Least Squares with Temporal Dynamics regularization and KNN post processing
 	+ Alternative Least Squares with Temporal Dynamics regularization and Kernel Ridge Regression post processing
 
-+ Papers: Our assigned papers were
+**Our assigned papers were**
 	+ Improving regularized singular value decomposition for collaborative filtering,  and 
 	+ Probabilistic-matrix-factorization.pdf
 	
-**Contribution statement**: [default] All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
+**Contribution statement**: 
++ [default] All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
 
 **Acknowledgements**
-Our sincere gratitude to Professor Tian Zheng and her amazing team of Diane Lu and Yujie Wang. Through their efforts and guidance we were able to pull through this project.  Besides, their lively and interactive approach during the Applied Data Science class makes learning enjoyable.
++ Our sincere gratitude to Professor Tian Zheng and her amazing team of Diane Lu and Yujie Wang. Through their efforts and guidance we were able to pull through this project.  Besides, their lively and interactive approach during the Applied Data Science class makes learning enjoyable.
 
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
