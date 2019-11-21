@@ -9,7 +9,6 @@ Have you ever wondered why Netflix continues to dominate the movie and TV stream
 Term: Fall 2019
 
 + Team #6
-+ Projec title: Lorem ipsum dolor sit amet
 + Team members
 	+ Jiyuan Liu
 	+ Xiyi Yan
@@ -19,13 +18,14 @@ Term: Fall 2019
 	+ Thomson Batidzirai
 	
 + Project summary: Inspired by the work done by the authors of the two papers below, we implemented and compared the following content filtering methods for the recommendation system:
-
-SGD algorithm with temporal regularization and postprocessing SVD with KNN
-SGD algorithm with temporal regularization and postprocessing SVD with kernel ridge regression.
+	+ Alternative Least Squares with Temporal Dynamics regularization and KNN prostprocessing
+	+ Alternative Least Squares with Temporal Dynamics regularization and Kernel Ridge Regression prostprocessing
 
 + Papers: Our assigned papers are (1) Improving regularized singular value decomposition for collaborative filtering  and (2) Probabilistic-matrix-factorization.pdf
 	
 **Contribution statement**: [default] All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
+
+
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
