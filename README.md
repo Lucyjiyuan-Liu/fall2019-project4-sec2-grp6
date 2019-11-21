@@ -3,6 +3,10 @@
 Term: Fall 2019
 
 + Team #6
++ Project title: Collaborative Filtering: A Aomparative Analysis
+
+![image](figs/netflix0.jpg)
+
 + Team members
 	+ Jiyuan Liu
 	+ Xiyi Yan
@@ -10,9 +14,7 @@ Term: Fall 2019
 	+ Jin Jie
 	+ San Dai
 	+ Thomson Batidzirai
-
-![image](figs/netflix0.jpg)
-
+	
 ### [Project Description](doc/project4_desc.md)
 
 Have you ever wondered why Netflix continues to dominate the movie and TV streaming industry since it's inception in the late 90's? Most people think that Netflix is able to keep most of it's competition at bay because of it's exceptionally large collection of original content which competitors cannot match. Indeed, this is true. However, we would like to also highlight Netflix's marketing strategy as another of it's major strengths. Netflix makes use of targeted marketing that makes full use of collaborative filtering techniques to satisfy clients by availing tailored content that match clients' tastes. This boasts customer loyalty and also easily entices new users; hence Netflix's continued dominance.
@@ -32,9 +34,16 @@ Inspired by the work done by the authors of the assigned papers below (who worke
 **Contribution statement**: 
 + [default] All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
 
-**Acknowledgements**
-+ Our sincere gratitude to Professor Tian Zheng and her amazing team of Diane Lu and Yujie Wang. Through their efforts and guidance we were able to pull through this project.  Besides, their lively and interactive approach during the Applied Data Science class makes learning enjoyable.
++ Jin Jie: Worked on implementing the Alternative Least Squares with Temporal Dynamics regularization and KNN post processing
++ San Dai: Worked on implementing the Alternative Least Squares with Temporal Dynamics regularization and KNN post processing
++ Jiyuan Liu: Worked on implementing the Alternative Least Squares with Temporal Dynamics regularization and Kernel Ridge Regression post processing
++ Xiyi Yan: Worked on implementing the Alternative Least Squares with Temporal Dynamics regularization and Kernel Ridge Regression post processing
++ Qiuyu Ruan: Worked on implementing the Alternative Least Squares with Temporal Dynamics regularization and Kernel Ridge Regression post processing. Also worked on the final presentation
++ Thomson Batidzirai: Worked on updating the readme section 
 
+
+**Acknowledgements**
++ Our sincere gratitude to Professor Tian Zheng and her amazing team of Diane Lu and Yujie Wang, who through their efforts guided us with wisdom to pull this project through.  Besides this project, their lively and interactive approach during the Applied Data Science class made learning enjoyable during the previous other projects.
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
