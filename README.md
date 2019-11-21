@@ -2,7 +2,7 @@
 
 Term: Fall 2019
 
-+ Team #6
++ Team: Section 2 Group 6
 + Project title: Collaborative Filtering: A Comparative Analysis
 
 ![image](figs/netflix0.jpg)
