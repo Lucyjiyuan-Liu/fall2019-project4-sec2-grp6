@@ -24,6 +24,7 @@ Inspired by the work done by the authors of the assigned papers below (who worke
 	+ Alternative Least Squares with Temporal Dynamics regularization and Kernel Ridge Regression post processing
 
 **The assigned papers:**
+
 	+[Improving regularized singular value decomposition for collaborative filtering](https://github.com/TZstatsADS/fall2019-project4-sec2-grp6/blob/master/doc/paper/P2%20Improving%20regularized%20singular%20value%20decomposition%20for%20collaborative%20filtering%20.pdf)	+[Probabilistic-matrix-factorization](https://github.com/TZstatsADS/fall2019-project4-sec2-grp6/blob/master/doc/paper/P3%20probabilistic-matrix-factorization.pdf)
 	
 **Contribution statement**: 
