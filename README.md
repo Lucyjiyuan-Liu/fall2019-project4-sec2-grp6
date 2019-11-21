@@ -8,12 +8,12 @@ Term: Fall 2019
 ![image](figs/netflix0.jpg)
 
 + Team members
-	+ Jiyuan Liu
-	+ Xiyi Yan
-	+ Qiuyu Ruan
-	+ Jin Jie
-	+ San Dai
 	+ Thomson Batidzirai
+	+ Sen Dai
+	+ Jie Jin 
+	+ Jiyuan Liu
+	+ Qiuyu Ruan
+	+ Xiyi Yan
 	
 ### [Project Description](doc/project4_desc.md)
 
@@ -22,9 +22,7 @@ Have you ever wondered why Netflix continues to dominate the movie and TV stream
 	
 **Project summary:** 
 
-Inspired by the work done by the authors of the assigned papers below (who worked on improving Netflix's recommendation system), we implemented and compared the following content filtering methods as applied to the Netflix data:
-+ Alternative Least Squares with Temporal Dynamics regularization and KNN post processing
-+ Alternative Least Squares with Temporal Dynamics regularization and Kernel Ridge Regression post processing
+We are assigned the task of ALS algorithm with temporal dynamics, along with KNN and KRR post processing using the data set on ratings of movie.We reduced the number of movies by deleting the movies with few ratings. First we implemented ALS algorithm with temporal dynamics using different lambda, by checking training and testing RMSE, we choose lambda=10 to implement our algprithm. After getting the optimal q matrix for moveis, we used it to do KNN and KRR postprocessing. When implementing KRR, we also did a cross validation. Finally, we use the predictors obtained above to run linear regression.
 
 **The assigned papers:**
 
@@ -33,16 +31,9 @@ Inspired by the work done by the authors of the assigned papers below (who worke
 	
 **Contribution statement**: 
 + All team members approve our work presented in this GitHub repository including this contributions statement. 
-+ Jin Jie: Worked on implementing the Alternative Least Squares with Temporal Dynamics regularization and KNN post processing
-+ San Dai: Worked on implementing the Alternative Least Squares with Temporal Dynamics regularization and KNN post processing
-+ Jiyuan Liu: Worked on implementing the Alternative Least Squares with Temporal Dynamics regularization and Kernel Ridge Regression post processing
-+ Xiyi Yan: Worked on implementing the Alternative Least Squares with Temporal Dynamics regularization and Kernel Ridge Regression post processing
-+ Qiuyu Ruan: Worked on implementing the Alternative Least Squares with Temporal Dynamics regularization and Kernel Ridge Regression post processing. Also worked on the final presentation
++ Jiyuan Liu and Xiyi Yan are major contributors who worked on the codes for ALS algorithm with temporal dynamics; also the codes for KNN and KRR postprocessing. Sen Dai, Jie Jin, and Qiuyu Ruan were responsible for data cleaning, helping understanidng the algorithms,collecting useful references and prepraring for presentation. All of us helped writing notebook.
 + Thomson Batidzirai: Worked on updating the readme section. Was on the team on implementing the Alternative Least Squares with Temporal Dynamics regularization and KNN post processing 
 
-
-**Acknowledgements**
-+ Our sincere gratitude to Professor Tian Zheng and her amazing team of Diane Lu and Yujie Wang, who through their efforts guided us through the project of building these recommendation systems.  Besides guiding us through this particular project, their lively and interactive approach during the previous other projects made the Applied Data Science class..., awesome!
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
