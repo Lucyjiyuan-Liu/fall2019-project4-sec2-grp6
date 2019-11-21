@@ -31,7 +31,7 @@ We are assigned the task of ALS algorithm with temporal dynamics, along with KNN
 	
 **Contribution statement**: 
 + All team members approve our work presented in this GitHub repository including this contributions statement. 
-+ Jiyuan Liu and Xiyi Yan are major contributors who worked on the codes for ALS algorithm with temporal dynamics; also the codes for KNN and KRR postprocessing. Sen Dai, Jie Jin, and Qiuyu Ruan were responsible for data cleaning, helping understanidng the algorithms,collecting useful references and prepraring for presentation. All of us helped writing notebook.
++ Jiyuan Liu and Xiyi Yan are major contributors who worked on the codes for ALS algorithm with temporal dynamics; also the codes for KNN and KRR postprocessing. Jiyuan Liu also worked on linear regression. Sen Dai, Jie Jin, and Qiuyu Ruan were responsible for data cleaning, helping understanidng the algorithms,collecting useful references and prepraring for presentation. All of us helped writing notebook.
 + Thomson Batidzirai: Worked on updating the readme section. Was on the team on implementing the Alternative Least Squares with Temporal Dynamics regularization and KNN post processing 
 
 
