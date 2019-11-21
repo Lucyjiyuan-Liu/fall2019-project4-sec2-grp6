@@ -32,8 +32,7 @@ Inspired by the work done by the authors of the assigned papers below (who worke
 + [Probabilistic-matrix-factorization](https://github.com/TZstatsADS/fall2019-project4-sec2-grp6/blob/master/doc/paper/P3%20probabilistic-matrix-factorization.pdf)
 	
 **Contribution statement**: 
-+ [default] All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
-
++ All team members approve our work presented in this GitHub repository including this contributions statement. 
 + Jin Jie: Worked on implementing the Alternative Least Squares with Temporal Dynamics regularization and KNN post processing
 + San Dai: Worked on implementing the Alternative Least Squares with Temporal Dynamics regularization and KNN post processing
 + Jiyuan Liu: Worked on implementing the Alternative Least Squares with Temporal Dynamics regularization and Kernel Ridge Regression post processing
@@ -43,7 +42,7 @@ Inspired by the work done by the authors of the assigned papers below (who worke
 
 
 **Acknowledgements**
-+ Our sincere gratitude to Professor Tian Zheng and her amazing team of Diane Lu and Yujie Wang, who through their efforts guided us with wisdom to pull this project through.  Besides this project, their lively and interactive approach during the Applied Data Science class made learning enjoyable during the previous other projects.
++ Our sincere gratitude to Professor Tian Zheng and her amazing team of Diane Lu and Yujie Wang, who through their efforts guided us through the project of building these recommendation systems.  Besides guiding us through this particular project, their lively and interactive approach during the previous other projects made the Applied Data Science class..., awesome!
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
