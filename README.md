@@ -18,8 +18,8 @@ Term: Fall 2019
 	+ Thomson Batidzirai
 	
 + Project summary: Inspired by the work done by the authors of the two papers below, we implemented and compared the following content filtering methods for the recommendation system:
-	+ Alternative Least Squares with Temporal Dynamics regularization and KNN prostprocessing
-	+ Alternative Least Squares with Temporal Dynamics regularization and Kernel Ridge Regression prostprocessing
+	+ Alternative Least Squares with Temporal Dynamics regularization and KNN post processing
+	+ Alternative Least Squares with Temporal Dynamics regularization and Kernel Ridge Regression post processing
 
 + Papers: Our assigned papers were
 	+ Improving regularized singular value decomposition for collaborative filtering,  and 
