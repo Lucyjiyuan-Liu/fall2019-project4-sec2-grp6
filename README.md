@@ -39,7 +39,7 @@ Inspired by the work done by the authors of the assigned papers below (who worke
 + Jiyuan Liu: Worked on implementing the Alternative Least Squares with Temporal Dynamics regularization and Kernel Ridge Regression post processing
 + Xiyi Yan: Worked on implementing the Alternative Least Squares with Temporal Dynamics regularization and Kernel Ridge Regression post processing
 + Qiuyu Ruan: Worked on implementing the Alternative Least Squares with Temporal Dynamics regularization and Kernel Ridge Regression post processing. Also worked on the final presentation
-+ Thomson Batidzirai: Worked on updating the readme section 
++ Thomson Batidzirai: Worked on updating the readme section. Was on the team on implementing the Alternative Least Squares with Temporal Dynamics regularization and KNN post processing 
 
 
 **Acknowledgements**
