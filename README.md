@@ -21,7 +21,9 @@ Term: Fall 2019
 	+ Alternative Least Squares with Temporal Dynamics regularization and KNN prostprocessing
 	+ Alternative Least Squares with Temporal Dynamics regularization and Kernel Ridge Regression prostprocessing
 
-+ Papers: Our assigned papers are (1) Improving regularized singular value decomposition for collaborative filtering  and (2) Probabilistic-matrix-factorization.pdf
++ Papers: Our assigned papers were
+	+ Improving regularized singular value decomposition for collaborative filtering,  and 
+	+ Probabilistic-matrix-factorization.pdf
 	
 **Contribution statement**: [default] All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
 
