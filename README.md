@@ -1,5 +1,7 @@
 # Project 4: Algorithm implementation and evaluation: Collaborative Filtering
 
+![image](figs/netflix0.jpg)
+
 ### [Project Description](doc/project4_desc.md)
 
 Term: Fall 2019
