@@ -3,7 +3,7 @@
 Term: Fall 2019
 
 + Team #6
-+ Project title: Collaborative Filtering: A Aomparative Analysis
++ Project title: Collaborative Filtering: A Comparative Analysis
 
 ![image](figs/netflix0.jpg)
 
