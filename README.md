@@ -22,12 +22,13 @@ Have you ever wondered why Netflix continues to dominate the movie and TV stream
 	
 **Project summary:** 
 
-We are assigned the task of ALS algorithm with temporal dynamics, along with KNN and KRR post processing using the data set on ratings of movie.We reduced the number of movies by deleting the movies with few ratings. First we implemented ALS algorithm with temporal dynamics using different lambda, by checking training and testing RMSE, we choose lambda=10 to implement our algorithm. After getting the optimal q matrix for moveis, we used it to do KNN and KRR postprocessing. When implementing KRR, we also did a cross validation. Finally, we use the predictors obtained above to run linear regression.
+We are assigned the task of ALS algorithm with temporal dynamics, along with KNN and KRR post processing using the data set on ratings of movie.We reduced the number of movies by deleting the movies with few ratings. First we implemented ALS algorithm with temporal dynamics using different lambda, by checking training and testing RMSE, we choose lambda=10 to implement our algprithm. After getting the optimal q matrix for moveis, we used it to do KNN and KRR postprocessing. When implementing KRR, we also did a cross validation. Finally, we use the predictors obtained above to run linear regression.
 
 **The assigned papers:**
 
 1. [Improving regularized singular value decomposition for collaborative filtering](https://github.com/TZstatsADS/fall2019-project4-sec2-grp6/blob/master/doc/paper/P2%20Improving%20regularized%20singular%20value%20decomposition%20for%20collaborative%20filtering%20.pdf)
-2. [Probabilistic-matrix-factorization](https://github.com/TZstatsADS/fall2019-project4-sec2-grp6/blob/master/doc/paper/P3%20probabilistic-matrix-factorization.pdf)
+2. [Large-scale Parallel Collaborative Filtering for the Netflix Prize](https://github.com/TZstatsADS/fall2019-project4-sec2-grp6/blob/master/doc/paper/P4%20Large-scale%20Parallel%20Collaborative%20Filtering%20for%20the%20Netflix%20Prize.pdf)
+3. [Collaborative Filtering with Temporal Dynamics](https://github.com/TZstatsADS/fall2019-project4-sec2-grp6/blob/master/doc/paper/P5%20Collaborative%20Filtering%20with%20Temporal%20Dynamics.pdf)
 	
 **Contribution statement**: 
 + All team members approve our work presented in this GitHub repository including this contributions statement. 
