@@ -22,7 +22,7 @@ Have you ever wondered why Netflix continues to dominate the movie and TV stream
 	
 **Project summary:** 
 
-We are assigned the task of ALS algorithm with temporal dynamics, along with KNN and KRR post processing using the data set on ratings of movie.We reduced the number of movies by deleting the movies with few ratings. First we implemented ALS algorithm with temporal dynamics using different lambda, by checking training and testing RMSE, we choose lambda=10 to implement our algprithm. After getting the optimal q matrix for moveis, we used it to do KNN and KRR postprocessing. When implementing KRR, we also did a cross validation. Finally, we use the predictors obtained above to run linear regression.
+We are assigned the task of ALS algorithm with temporal dynamics, along with KNN and KRR post processing using the data set on ratings of movie.We reduced the number of movies by deleting the movies with few ratings. First we implemented ALS algorithm with temporal dynamics using different lambda, by checking training and testing RMSE, we choose lambda=10 to implement our algorithm. After getting the optimal q matrix for moveis, we used it to do KNN and KRR postprocessing. When implementing KRR, we also did a cross validation. Finally, we use the predictors obtained above to run linear regression.
 
 **The assigned papers:**
 
