@@ -6,14 +6,6 @@ Created on Sat Nov 16 01:28:12 2019
 @author: xiyiyan
 """
 
-import os
-import pandas as pd
-os.chdir('/Users/xiyiyan/Documents/GitHub/fall2019-project4-sec2-grp6/output')
-
-
-data_train_subset=pd.read_csv('data_train_subset.csv')
-mat_q1=pd.read_csv('q_1.csv')
-mat_q2=pd.read_csv('q_2.csv')
 
 #############################################
 #####Run KNN for predicted movie matrix######
@@ -56,13 +48,5 @@ def knn_postprocessing(data,mat_q):
     
     return(updated_rating)
 
-
-updated_rating_1=knn_postprocessing(data_train_subset,mat_q1)
-updated_rating_1=pd.DataFrame(updated_rating_1,index=[np.delete(a,0)])
-updated_rating_1.to_csv('/Users/xiyiyan/Documents/GitHub/fall2019-project4-sec2-grp6/output/updated_rating_knn1.csv')
-
-
-updated_rating_2=knn_postprocessing(data_train_subset,mat_q2)
-updated_rating_2.to_csv('/Users/xiyiyan/Documents/GitHub/fall2019-project4-sec2-grp6/output/updated_rating_knn2.csv')
    
     
