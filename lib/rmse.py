@@ -2,12 +2,11 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Nov 17 19:08:22 2019
-
 @author: xiyiyan
 """
 
 
-def rmse_krr(rating,est_rating):
+def rmse(rating,est_rating):
     
     import numpy as np
     import math
@@ -18,5 +17,4 @@ def rmse_krr(rating,est_rating):
         
     return(math.sqrt(np.mean(rating.apply(sqr_err,1))))
   
-
-
+#######    rmse=0.401361160390804
