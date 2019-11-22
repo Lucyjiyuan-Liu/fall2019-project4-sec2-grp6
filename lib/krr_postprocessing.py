@@ -7,17 +7,6 @@ Created on Sun Nov 17 15:42:57 2019
 """
 
 
-import os
-import pandas as pd
-os.chdir('/Users/xiyiyan/Documents/GitHub/fall2019-project4-sec2-grp6/output')
-
-
-mat_q1=pd.read_csv('q_1.csv')
-ratings_subset=pd.read_csv('ratings_subset.csv')
-data_train_subset=pd.read_csv('data_train_subset.csv')
-data_test_subset=pd.read_csv('data_test_subset.csv')
-
-
 ########################
 #####Step1: Run KRR#####
 ########################
@@ -133,11 +122,6 @@ def cv_krr(data,data_train,data_test,k):
         
     return(krr_rmse_test,cv_result_mat[idx_min_rmse])
  
-
-test_error,best=cv_krr(ratings_subset,data_train_subset,data_test_subset,5)  
-
-
-pd.DataFrame(best).to_csv('/Users/xiyiyan/Documents/GitHub/fall2019-project4-sec2-grp6/output/updated_rating_krr2.csv')
 
 
 
